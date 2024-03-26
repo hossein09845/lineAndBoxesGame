@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Line and boxes game</title>
+</head>
+<body>
+  <dialog dialog>
+    <div dialog-continer>
+      <h3 dialog-title>Winners</h3>
+      <ul dialog-winner-list>
+        <li style="background: var(--red-color);">25</li>
+        <li style="background: var(--blue-color);">25</li>
+        <li style="background: var(--yellow-color);">25</li>
+        <li style="background: var(--green-color);">25</li>
+      </ul>
+      <button dialog-btn>OK</button>
+    </div>
+  </dialog>
+  
+  <p class="score red active">0</p>
+  <p class="score blue">0</p>
+  <p class="score yellow">0</p>
+  <p class="score green">0</p>
+	<div id="board"></div>
+	<button id="resetBtn">Reset</button>
+	
+</body>
+</html>
